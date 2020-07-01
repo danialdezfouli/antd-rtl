@@ -1,0 +1,154 @@
+.ant-alert-with-description {
+    text-align: right;
+    padding: 15px 64px 14px 15px;
+
+    .ant-alert-icon {
+        right: 24px;
+        left: auto;
+    }
+}
+
+.ant-form-item-label>label.ant-form-item-required::before {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+@media (max-width: 575px) {
+    .ant-form-item .ant-form-item-label {
+        text-align: right;
+    }
+}
+
+.avoid-break-form {
+    .ant-form-item-label,
+    .ant-form-item-control {
+        -ms-flex: 1 1 0px !important;
+        flex: 1 1 !important;
+    }
+}
+
+.ant-pagination {
+    direction: ltr;
+}
+
+.ant-alert-with-description {
+    text-align: right;
+    padding: 15px 64px 14px 15px;
+
+    .ant-alert-icon {
+        right: 24px;
+        left: auto;
+    }
+}
+
+.ant-form-item-label>label.ant-form-item-required::before {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.ant-message .anticon {
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+@media (max-width: 575px) {
+    .ant-form-item .ant-form-item-label {
+        text-align: right;
+    }
+}
+
+.ant-skeleton-element .ant-skeleton-button-sm {
+    height: 16px;
+}
+
+.ant-modal-content {
+    border-radius: 0.5rem;
+}
+
+.ant-modal-header {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.ant-modal-title {
+    text-align: center;
+}
+
+.ant-modal-footer,
+.ant-modal-confirm-btns {
+    text-align: center;
+    direction: ltr;
+
+    button {
+        direction: rtl;
+    }
+}
+
+.ant-input-number-lg input {
+    direction: ltr;
+}
+
+.ant-input-number-lg {
+    font-size: 18px;
+
+    .ant-input-number-handler-wrap {
+        .ant-input-number-handler .ant-input-number-handler-up-inne {
+            font-size: 15px;
+        }
+    }
+}
+
+.ant-input-number-handler-wrap {
+    opacity: 1;
+    width: 26px;
+}
+
+.ant-input-number-handler-wrap .ant-input-number-handler {
+
+    .ant-input-number-handler-down-inner,
+    .ant-input-number-handler-up-inner {
+        right: 6px;
+        font-size: 10px !important;
+    }
+}
+
+.ant-scrolling-effect {
+    margin-right: 17px;
+}
+
+.ant-form-vertical .ant-form-item-label,
+.ant-col-24.ant-form-item-label,
+.ant-col-xl-24.ant-form-item-label {
+    text-align: right;
+}
+
+.ant-select-clear,
+.ant-select-arrow {
+    right: auto;
+    left: 11px;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 0;
+    padding-left: 18px;
+}
+
+.ant-input-affix-wrapper {
+    direction: ltr;
+    // input{
+    // }
+}
+
+.ant-popover-message-title {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+.ant-popover-message>.anticon {
+    right: 0;
+}
+
+.ant-table-thead>tr>th,
+.ant-table table {
+    text-align: right;
+}
